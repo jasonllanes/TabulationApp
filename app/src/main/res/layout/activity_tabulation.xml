@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Tabulation">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:text="Tabulation"
+        android:textColor="@color/blue"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tv_sport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:text="Chess"
+        android:textColor="@color/yellow"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="SPHINX"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/et_sphinx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:layout_marginLeft="20dp"
+            android:text="0"
+            android:textColor="@color/yellow"
+            android:inputType="number"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="pts"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="CP: "
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:textSize="12dp" />
+        <TextView
+            android:id="@+id/tv_sphinx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="30"
+            android:textColor="@color/yellow"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="pts"
+            android:textColor="@color/black"
+            android:layout_marginLeft="3dp"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="GRIFFIN"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/et_griffin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:layout_marginLeft="15dp"
+            android:text="0"
+            android:textColor="@color/yellow"
+            android:inputType="number"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="pts"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="CP: "
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:textSize="12dp" />
+        <TextView
+            android:id="@+id/tv_griffin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="30"
+            android:textColor="@color/yellow"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="pts"
+            android:textColor="@color/black"
+            android:layout_marginLeft="3dp"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="Phoenix"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/et_phoenix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:layout_marginLeft="10dp"
+            android:text="0"
+            android:textColor="@color/yellow"
+            android:inputType="number"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="pts"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp" /><TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
+        android:text="CP: "
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:textSize="12dp" />
+        <TextView
+            android:id="@+id/tv_phoenix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="30"
+            android:textColor="@color/yellow"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="pts"
+            android:textColor="@color/black"
+            android:layout_marginLeft="3dp"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
+        android:text="-----------------------------"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
+        android:text="Legend:"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Major Sports:\nChampion - 60pts\n2nd - 40pts\n3rd - 20pts"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:textSize="12dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minor Sports:\nChampion - 60pts\n2nd - 30pts\n3rd - 20pts"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/yellow"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

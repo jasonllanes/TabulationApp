@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        tools:context=".Major_Sports">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="Major Sports"
+            android:textColor="@color/blue"
+            android:textSize="30dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="20dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_cheerdance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Cheerdance"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Banner Raising"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_hataw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Hataw Sayaw"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_bands"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Battle of the Bands"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_pop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Pop Idol"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_basketballmen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Basketball (Men)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_basketballwomen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Basketball (Women)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_volleyballmen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Volleyball (Men)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_volleyballwomen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Volleyball (Women)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_mr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Mr STI"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_ms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Ms STI"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+    </LinearLayout>

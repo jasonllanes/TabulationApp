@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        tools:context=".Sports"
+        android:id="@+id/homeLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="Sports Category"
+            android:textColor="@color/blue"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btn_major"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Major Sports"
+            android:background="@color/yellow"
+            android:textColor="@color/blue"/>
+        <Button
+            android:id="@+id/btn_minor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Minor Sports"
+            android:background="@color/yellow"
+            android:textColor="@color/blue"/>
+
+
+</LinearLayout>

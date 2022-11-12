@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Minor_Sports">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:text="Minor Sports"
+        android:textColor="@color/blue"
+        android:textSize="30dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="20dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_badmintonmen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Badminton(Men)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_badmintonwomen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Badminton(Women)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_badmintondoubles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Badminton(Doubles)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_tennismale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Table Tennis(Male)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_tenniswomen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Table Tennis(Women)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_tennisdoubles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Table Tennis(Doubles)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_chessmen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Chess(Men)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_chesswomen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Chess(Women)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_scrabblemen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Scrabble(Men)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_scrabblewomen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Scrabble(Women)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_tugmen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Tug of War(Men)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_tugwomen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Tug of War(Women)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_dartmen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Dart(Men)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_dartwomen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Dart(Women)"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_sepak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Sepak Takraw"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_patentoro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Patentero"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_sack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Sack Race"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_runningman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Running Man"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+            <Button
+                android:id="@+id/btn_poster"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Poster Making"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
